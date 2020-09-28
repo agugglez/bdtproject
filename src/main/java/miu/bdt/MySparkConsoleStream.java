@@ -12,10 +12,10 @@ import scala.Tuple2;
 
 import java.util.regex.Pattern;
 
-public final class JavaNetworkWordCount {
+public final class MySparkConsoleStream {
     private static final Pattern SPACE = Pattern.compile(" ");
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
 //        if (args.length < 2) {
 //            System.err.println("Usage: JavaNetworkWordCount <hostname> <port>");
 //            System.exit(1);

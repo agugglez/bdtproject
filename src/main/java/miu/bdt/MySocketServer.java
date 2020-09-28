@@ -41,7 +41,7 @@ public class MySocketServer {
             JSONObject jsonObject = jsonArray.getJSONObject(i);
             String jsonObjectAsString = jsonObject.toString();
             out.println(jsonObjectAsString);
-            Thread.sleep(3000);
+            Thread.sleep(2000);
         }
 //            String inputLine;
 //            while ((inputLine = stdIn.readLine()) != null) {
