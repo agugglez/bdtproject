@@ -1,6 +1,10 @@
-package miu.bdt;
+package miu.bdt.model;
 
-public class MyNewsObject {
+import java.io.Serializable;
+
+public class MyNewsObject implements Serializable {
+    private static final long serialVersionUID = -2375635104087226938L;
+
     private String id;
     private String title;
     private String text;
@@ -29,5 +33,12 @@ public class MyNewsObject {
 
     public void setText(String text) {
         this.text = text;
+    }
+
+    @Override
+    public String toString() {
+        return "MyNewsObject{" +
+                "title='" + title + '\'' +
+                '}';
     }
 }
